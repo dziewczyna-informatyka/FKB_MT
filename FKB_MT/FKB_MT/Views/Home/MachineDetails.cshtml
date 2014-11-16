@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Machine details";
+}
+
+<h2>Machine details</h2>
+
+<body>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="well">
+                Sort<br /><br /><br /><br /><br /><br />
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="well">
+                Details<br /><br /><br /><br /><br /><br />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2">
+            <div class="well">
+                List of machines<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="well">
+
+
+                <div role="tabpanel">
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#repairs" aria-controls="repairs" role="tab" data-toggle="tab">Repairs</a></li>
+                        <li role="presentation"><a href="#adjustments" aria-controls="adjustments" role="tab" data-toggle="tab">Adjustments</a></li>
+                        <li role="presentation"><a href="#inspections" aria-controls="inspections" role="tab" data-toggle="tab">Inspections</a></li>
+                        <li role="presentation"><a href="#calibrations" aria-controls="calibrations" role="tab" data-toggle="tab">Calibrations</a></li>
+                        <li role="presentation"><a href="#validations" aria-controls="validations" role="tab" data-toggle="tab">Validations</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="repairs">
+                            <div class="form-group">
+                                <button class="btn btn-default">Add </button>
+                            </div>
+                            
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Date</th>
+                                        <th>Actions</th>
+                                        <th>Duration [min]</th>
+                                        <th>Employee</th>
+                                        <th>Spare parts</th>
+                                    </tr>
+                                </thead>
+
+                            </table>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="adjustments">...</div>
+                        <div role="tabpanel" class="tab-pane" id="inspections">...</div>
+                        <div role="tabpanel" class="tab-pane" id="calibrations">...</div>
+                        <div role="tabpanel" class="tab-pane" id="validations">...</div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+            
+        </div>
+    </div>
+
+</body>
